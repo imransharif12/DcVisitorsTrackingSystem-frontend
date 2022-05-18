@@ -1,0 +1,357 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+* {
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins', sans-serif;
+}
+
+:root {
+   --primaryColor: #8aea57;
+}
+
+h1 {
+   font-size: 40px !important;
+   line-height: 50px !important;
+   color: #333;
+   font-weight: 600 !important;
+}
+
+h2 {
+   font-size: 32px;
+   color: #333;
+   line-height: 38px;
+   margin-bottom: 16px;
+   margin-top: 8px;
+}
+
+h3 {
+   font-size: 20px !important;
+   color: #333;
+}
+
+strong {
+   padding-right: 5px;
+   color: #333;
+   font-weight: 600 !important;
+}
+
+.danger {
+   color: #f56c6c;
+}
+
+label {
+   font-size: 16px;
+   line-height: 24px;
+   color: #333;
+   margin-bottom: 5px;
+}
+
+.form-control:focus {
+   box-shadow: none;
+}
+
+.form-control {
+   min-height: 40px;
+}
+
+
+.next-button,
+.prev-button,
+.submit-button {
+   background-color: #868e96;
+   padding: 8px 16px;
+   border-radius: 3px;
+   font-weight: 300;
+   border: none;
+   color: #fff;
+   text-decoration: none;
+}
+.v-toast{
+   top: 60px;
+   right: -30px;
+}
+.stepper-box[data-v-3ee86246] {
+   box-shadow: none;
+}
+.stepper-box .bottom[data-v-3ee86246]{
+ border-top: none;
+}
+.thankyou{
+   text-align: center;
+   box-shadow: 0 1px 5px rgb(0 0 0 / 10%);
+   padding: 20px;
+
+}
+
+.next-button:hover,
+.prev-button:hover,
+.submit-button:hover {
+   color: #fff;
+   opacity: 0.8;
+   text-decoration: none;
+}
+
+.submit-button {
+   background-color: var(--primaryColor);
+}
+
+.vue-phone-number-input .select-country-container {
+   min-width: 60px !important;
+   max-width: 60px !important;
+}
+
+.country-selector__label {
+   display: none !important;
+}
+
+.country-selector__input {
+   padding-top: 5px !important;
+   box-shadow: none !important;
+   background-color: rgba(0, 0, 0, .1) !important;
+}
+
+.input-tel.is-focused .input-tel__input {
+   box-shadow: none !important;
+}
+
+.country-selector__toggle {
+   top: calc(50% - 14px) !important;
+   right: 0 !important;
+}
+
+.country-selector__toggle__arrow {
+   width: 20px !important;
+   height: 20px !important;
+}
+
+.country-selector__country-flag {
+   top: 15px !important;
+}
+
+.step-header.active .step-header-content {
+   background-color: var(--primaryColor) !important;
+}
+
+.top {
+   margin-bottom: 30px;
+}
+
+.step-header.active .step-header-line {
+   background-color: var(--primaryColor) !important;
+}
+
+.step-header-content {
+   width: 40px !important;
+   height: 40px !important;
+}
+
+.font-bold {
+   font-weight: 600;
+}
+.stepText {
+   color: #333;
+   font-size: 14px;
+   font-weight: 300;
+   margin-bottom: 5px;
+}
+.cursor-pointer{
+   cursor: pointer;
+ }
+ .choose-file {
+   background: #6f757e;
+   color: #fff;
+   cursor: pointer;
+   padding: 6px 20px;
+}
+select {
+   word-wrap: normal;
+   color: gray;
+}
+#line-progress {
+   border-radius: 5px;
+   max-width: 970px;
+}
+.btn:focus {
+   box-shadow: none !important;
+}
+
+.card {
+   border-radius: 0 !important;
+}
+
+.accordionBtn {
+   padding: 21px 25px 21px 20px !important;
+   border-radius: 0 !important;
+   background-color: #f1f1f1 !important;
+   border: none !important;
+   text-align: left !important;
+   color: #333333 !important;
+   font-size: 20px !important;
+   transition: all 0.3s ease-in-out;
+}
+
+.accordionBtn:hover {
+   background-color: #414141 !important;
+   transition: all 0.3s ease-in-out;
+   color: #fff !important;
+}
+
+button.btn.accordionBtn.btn-secondary.btn-block.not-collapsed {
+   background-color: var(--primaryColor) !important;
+   color: #234B0E !important;
+}
+
+.custom-radio {
+   margin: 20px;
+   color: #333;
+   font-size: 15px;
+}
+
+.custom-radio label {
+   font-weight: 400 !important;
+}
+
+input[type=radio]:focus,
+input[type=radio]:active {
+   box-shadow: none;
+   outline: none;
+   border: none;
+}
+
+
+/* Accordion CSS */
+.accordion label {
+   font-weight: 500;
+}
+
+.accordionInput {
+   background-color: #f8f8f8 !important;
+   border: 1px solid #f8f8f8 !important;
+   border-radius: 2px !important;
+   min-height: 44px !important;
+}
+
+.accordionInput:focus {
+   box-shadow: none !important;
+   border: 1px solid #80bdff !important;
+   background-color: #f8f8f8 !important;
+}
+
+.btnSave {
+   color: #fff;
+   font-weight: 400;
+   background: #414141;
+   width: 50%;
+   border: 0;
+   text-transform: uppercase;
+   padding: 10px 0px;
+   display: block;
+   letter-spacing: 1px;
+   margin: 0 auto;
+   margin-top: 10px;
+}
+
+.btnSave:hover {
+   background: var(--primaryColor);
+   color: #000;
+}
+
+.custom-control-label::before,
+.custom-control-label::after {
+   width: 16px !important;
+   height: 16px !important;
+}
+
+input[type='checkbox'] {
+   -moz-appearance: none;
+   -webkit-appearance: none;
+   appearance: none;
+   vertical-align: middle;
+   outline: none;
+   font-size: inherit;
+   cursor: pointer;
+   width: 1em;
+   height: 1em;
+   border-radius: 0.25em;
+   border: 0.125em solid #555;
+   position: relative;
+   background: #f8f8f8;
+}
+
+.custom-checkbox label {
+   font-weight: 400;
+}
+
+.card {
+   border: 1px solid rgba(0, 0, 0, .02) !important;
+   border-bottom: none;
+}
+
+.custom-control {
+   padding-left: 10px !important;
+}
+
+.form-control:focus {
+   box-shadow: none !important;
+}
+
+.b-calendar-grid.form-control:focus {
+   box-shadow: none !important;
+   border: none !important;
+}
+
+#example-datepicker__dialog_ .small {
+   display: none;
+}
+
+select {
+   min-height: 40px;
+   width: 100%;
+   border: 1px solid #ced4da;
+   border-radius: 4px;
+}
+
+select:focus-visible {
+   outline: none !important;
+}
+
+.input-tel__label {
+   display: none;
+}
+
+.input-tel.has-value .input-tel__input {
+   padding-top: 0px !important;
+   font-size: 1rem !important;
+}
+
+.data-table-table .column-content {
+   font-weight: 600 !important;
+}
+
+.btn-primary {
+   background-color: #414141 !important;
+   border-color: #414141 !important;
+}
+
+.btn-primary:hover {
+   background-color: var(--primaryColor) !important;
+   border-color: var(--primaryColor) !important;
+}
+
+.page-item.active .page-link {
+   background-color: #414141 !important;
+   border-color: #414141 !important;
+}
+
+#line-progress {
+   border-radius: 5px;
+   max-width: 970px;
+}
+
+.stepText {
+   color: #333;
+   font-size: 14px;
+   font-weight: 300;
+   margin-bottom: 5px;
+}
